@@ -11,7 +11,7 @@
     "url": "https://github.com/doinel1a/next-ts-shadcn-ui"
   },
   "scripts": {
-    "postinstall": "husky & playwright install",
+    "postinstall": "husky & prisma generate & playwright install",
     "dev": "next dev",
     "build": "next build",
     "preview": "next start",
@@ -19,9 +19,12 @@
     "lint:fix": "next lint --fix",
     "prettier": "prettier --write **/**/*.{html,css,scss,js,cjs,mjs,ts,tsx}",
     "test": "playwright test",
-    "test:ui": "playwright test --ui"
+    "test:ui": "playwright test --ui",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio"
   },
   "dependencies": {
+    "@prisma/client": "^5.12.1",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
     "@radix-ui/react-slot": "^1.0.2",
     "@t3-oss/env-nextjs": "^0.9.2",
@@ -65,6 +68,7 @@
     "postcss": "8.4.38",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.14",
+    "prisma": "^5.12.1",
     "sass": "^1.75.0",
     "tailwindcss": "3.4.3",
     "typescript": "5.4.5"
