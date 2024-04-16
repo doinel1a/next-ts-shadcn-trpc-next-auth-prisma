@@ -6,11 +6,11 @@ import Counter from '@/components/counter';
 import GithubCorner from '@/components/github-corner';
 import { Button } from '@/components/ui/button';
 import { getServerAuthSession } from '@/server/auth';
-import { database } from '@/server/database';
+import { api } from '@/server/trpc';
 
 export default async function Home() {
   const session = await getServerAuthSession();
-  const testUsers = await database.testUser.findMany();
+  const testUsers = await api.testUser.getAll();
 
   return (
     <main className='flex h-full w-full flex-col items-center justify-center '>
