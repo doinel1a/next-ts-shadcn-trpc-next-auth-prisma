@@ -24,6 +24,7 @@
     "db:studio": "prisma studio"
   },
   "dependencies": {
+    "@auth/prisma-adapter": "^1.6.0",
     "@prisma/client": "^5.12.1",
     "@radix-ui/react-dropdown-menu": "^2.0.6",
     "@radix-ui/react-slot": "^1.0.2",
@@ -32,6 +33,7 @@
     "clsx": "^2.1.0",
     "lucide-react": "^0.368.0",
     "next": "14.2.1",
+    "next-auth": "^4.24.7",
     "next-themes": "^0.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -74,4 +76,3 @@
     "typescript": "5.4.5"
   }
 }
-
