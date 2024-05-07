@@ -2,10 +2,10 @@
 [pnpm]: https://pnpm.io/installation
 [yarn]: https://yarnpkg.com/getting-started/install
 [demo]: https://next-ts-shadcn-ui.d1a.app/
-[license]: https://github.com/doinel1a/next-ts-shadcn-ui/blob/main/LICENSE
-[code-of-conduct]: https://github.com/doinel1a/next-ts-shadcn-ui/blob/main/CODE_OF_CONDUCT.md
-[issues]: https://github.com/doinel1a/next-ts-shadcn-ui/issues
-[pulls]: https://github.com/doinel1a/next-ts-shadcn-ui/pulls
+[license]: https://github.com/doinel1a/next-ts-shadcn-trpc-next-auth-prisma/blob/main/LICENSE
+[code-of-conduct]: https://github.com/doinel1a/next-ts-shadcn-trpc-next-auth-prisma/blob/main/CODE_OF_CONDUCT.md
+[issues]: https://github.com/doinel1a/next-ts-shadcn-trpc-next-auth-prisma/issues
+[pulls]: https://github.com/doinel1a/next-ts-shadcn-trpc-next-auth-prisma/pulls
 [google-console]: https://console.cloud.google.com/apis/credentials
 [google-provider]: https://next-auth.js.org/providers/google
 [browserslist]: https://browsersl.ist/#q=last+3+versions%2C%3E+0.2%25%2C+not+dead
@@ -53,7 +53,7 @@ This repository is ideal for front-end developers who want to build modern, fast
   - click **"Use this template"** &nbsp; or &nbsp; **"Fork"** button <br /> alternately
   - **clone** the repository through your terminal: <br />
     ```bash
-    git clone https://github.com/doinel1a/next-ts-shadcn-ui YOUR-PROJECT-NAME
+    git clone https://github.com/doinel1a/next-ts-shadcn-trpc-next-auth-prisma YOUR-PROJECT-NAME
     ```
 - Create your **environment variables** using `.env.example` as starting point: <br />
   **\* Remember: if you're going to add more environment variables, also add them into `src/env.js`.**

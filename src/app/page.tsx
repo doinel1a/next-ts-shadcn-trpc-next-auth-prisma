@@ -16,7 +16,7 @@ export default async function Home() {
     <main className='flex h-full w-full flex-col items-center justify-center '>
       <GithubCorner
         title='Get started on GitHub'
-        url='https://github.com/doinel1a/next-ts-shadcn-ui'
+        url='https://github.com/doinel1a/next-ts-shadcn-trpc-next-auth-prisma'
       />
 
       {session && <h1 className='mb-5 text-3xl'>Welcome back, {session.user.name}</h1>}
