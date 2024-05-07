@@ -6,6 +6,8 @@
 [code-of-conduct]: https://github.com/doinel1a/next-ts-shadcn-ui/blob/main/CODE_OF_CONDUCT.md
 [issues]: https://github.com/doinel1a/next-ts-shadcn-ui/issues
 [pulls]: https://github.com/doinel1a/next-ts-shadcn-ui/pulls
+[google-console]: https://console.cloud.google.com/apis/credentials
+[google-provider]: https://next-auth.js.org/providers/google
 [browserslist]: https://browsersl.ist/#q=last+3+versions%2C%3E+0.2%25%2C+not+dead
 [commitlint]: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
 [chrome-icon]: https://github.com/alrra/browser-logos/blob/main/src/chrome/chrome_64x64.png
@@ -53,6 +55,14 @@ This repository is ideal for front-end developers who want to build modern, fast
     ```bash
     git clone https://github.com/doinel1a/next-ts-shadcn-ui YOUR-PROJECT-NAME
     ```
+- Create your **environment variables** using `.env.example` as starting point: <br />
+  **\* Remember: if you're going to add more environment variables, also add them into `src/env.js`.**
+  - **NEXTAUTH_SECRET**: you can generate a new secret on the command line with <br />
+    ```bash
+    openssl rand -base64 32
+    ```
+  - **DATABASE_URL**: your database connection url;
+  - **GOOGLE_CLIENT_ID** & **GOOGLE_CLIENT_SECRET**: your Google credentials from the [cloud console][google-console]; more about [Google Provider][google-provider];
 - Open your terminal or code editor to the path your project is located, and run:
 
   |                                                  | **npm**           | **pnpm**       | **yarn**       |
